@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22D4460289C7FC10091B09D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D445F289C7FC10091B09D /* StringExtension.swift */; };
+		B22D4462289CDDB30091B09D /* SectionsEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D4461289CDDB30091B09D /* SectionsEvents.swift */; };
+		B22D4464289D8F2D0091B09D /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D4463289D8F2D0091B09D /* DateExtension.swift */; };
+		B22D446B289E08E80091B09D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D446A289E08E80091B09D /* UIViewControllerExtension.swift */; };
+		B22D4470289E1C1A0091B09D /* UpcomingEventsPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D446F289E1C1A0091B09D /* UpcomingEventsPresenterTest.swift */; };
+		B22D4472289E1D4C0091B09D /* UpcomingEventsViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D4471289E1D4C0091B09D /* UpcomingEventsViewMock.swift */; };
+		B22D4474289E20270091B09D /* UpcomingEventsLocalDataMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22D4473289E20270091B09D /* UpcomingEventsLocalDataMock.swift */; };
 		B23AE19F289C724B00C21365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE19E289C724B00C21365 /* AppDelegate.swift */; };
 		B23AE1A1289C724B00C21365 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1A0289C724B00C21365 /* SceneDelegate.swift */; };
-		B23AE1A3289C724B00C21365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1A2289C724B00C21365 /* ViewController.swift */; };
-		B23AE1A6289C724B00C21365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23AE1A4289C724B00C21365 /* Main.storyboard */; };
+		B23AE1A3289C724B00C21365 /* UpcomingEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1A2289C724B00C21365 /* UpcomingEventsViewController.swift */; };
+		B23AE1A6289C724B00C21365 /* UpcomingEventsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23AE1A4289C724B00C21365 /* UpcomingEventsViewController.storyboard */; };
 		B23AE1A8289C724C00C21365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23AE1A7289C724C00C21365 /* Assets.xcassets */; };
 		B23AE1AB289C724C00C21365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23AE1A9289C724C00C21365 /* LaunchScreen.storyboard */; };
 		B23AE1B6289C724D00C21365 /* UpcomingEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1B5289C724D00C21365 /* UpcomingEventsTests.swift */; };
 		B23AE1C0289C724D00C21365 /* UpcomingEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1BF289C724D00C21365 /* UpcomingEventsUITests.swift */; };
 		B23AE1C2289C724D00C21365 /* UpcomingEventsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1C1289C724D00C21365 /* UpcomingEventsUITestsLaunchTests.swift */; };
+		B23AE1D6289C743700C21365 /* GetNextEventsLocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1D5289C743700C21365 /* GetNextEventsLocalData.swift */; };
+		B23AE1D9289C749E00C21365 /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = B23AE1D8289C749E00C21365 /* Events.json */; };
+		B23AE1DB289C756000C21365 /* EventsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1DA289C756000C21365 /* EventsModel.swift */; };
+		B23AE1DD289C76A100C21365 /* UpcomingEventsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1DC289C76A100C21365 /* UpcomingEventsPresenter.swift */; };
+		B23AE1E0289C77F200C21365 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1DF289C77F200C21365 /* EventsCell.swift */; };
+		B23AE1E2289C782600C21365 /* EventsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23AE1E1289C782600C21365 /* EventsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B22D445F289C7FC10091B09D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		B22D4461289CDDB30091B09D /* SectionsEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsEvents.swift; sourceTree = "<group>"; };
+		B22D4463289D8F2D0091B09D /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		B22D446A289E08E80091B09D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		B22D446F289E1C1A0091B09D /* UpcomingEventsPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsPresenterTest.swift; sourceTree = "<group>"; };
+		B22D4471289E1D4C0091B09D /* UpcomingEventsViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsViewMock.swift; sourceTree = "<group>"; };
+		B22D4473289E20270091B09D /* UpcomingEventsLocalDataMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsLocalDataMock.swift; sourceTree = "<group>"; };
 		B23AE19B289C724B00C21365 /* UpcomingEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpcomingEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23AE19E289C724B00C21365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B23AE1A0289C724B00C21365 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B23AE1A2289C724B00C21365 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B23AE1A5289C724B00C21365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B23AE1A2289C724B00C21365 /* UpcomingEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsViewController.swift; sourceTree = "<group>"; };
+		B23AE1A5289C724B00C21365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UpcomingEventsViewController.storyboard; sourceTree = "<group>"; };
 		B23AE1A7289C724C00C21365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23AE1AA289C724C00C21365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B23AE1AC289C724C00C21365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +69,12 @@
 		B23AE1BB289C724D00C21365 /* UpcomingEventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpcomingEventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23AE1BF289C724D00C21365 /* UpcomingEventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsUITests.swift; sourceTree = "<group>"; };
 		B23AE1C1289C724D00C21365 /* UpcomingEventsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B23AE1D5289C743700C21365 /* GetNextEventsLocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNextEventsLocalData.swift; sourceTree = "<group>"; };
+		B23AE1D8289C749E00C21365 /* Events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
+		B23AE1DA289C756000C21365 /* EventsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsModel.swift; sourceTree = "<group>"; };
+		B23AE1DC289C76A100C21365 /* UpcomingEventsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsPresenter.swift; sourceTree = "<group>"; };
+		B23AE1DF289C77F200C21365 /* EventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
+		B23AE1E1289C782600C21365 /* EventsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B22D445C289C7F5E0091B09D /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				B22D445E289C7F730091B09D /* Extensions */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		B22D445D289C7F650091B09D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE1CE289C72A600C21365 /* UpcomingEvents */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B22D445E289C7F730091B09D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B22D445F289C7FC10091B09D /* StringExtension.swift */,
+				B22D4463289D8F2D0091B09D /* DateExtension.swift */,
+				B22D446A289E08E80091B09D /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B22D446C289E1B1A0091B09D /* UpcomingEventsModule */ = {
+			isa = PBXGroup;
+			children = (
+				B22D446E289E1B2F0091B09D /* Presenter */,
+				B22D446D289E1B2A0091B09D /* Mocks */,
+			);
+			path = UpcomingEventsModule;
+			sourceTree = "<group>";
+		};
+		B22D446D289E1B2A0091B09D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				B22D4471289E1D4C0091B09D /* UpcomingEventsViewMock.swift */,
+				B22D4473289E20270091B09D /* UpcomingEventsLocalDataMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		B22D446E289E1B2F0091B09D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B22D446F289E1C1A0091B09D /* UpcomingEventsPresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		B23AE192289C724B00C21365 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +177,10 @@
 		B23AE19D289C724B00C21365 /* UpcomingEvents */ = {
 			isa = PBXGroup;
 			children = (
+				B22D445C289C7F5E0091B09D /* Commons */,
+				B22D445D289C7F650091B09D /* Modules */,
 				B23AE19E289C724B00C21365 /* AppDelegate.swift */,
 				B23AE1A0289C724B00C21365 /* SceneDelegate.swift */,
-				B23AE1A2289C724B00C21365 /* ViewController.swift */,
-				B23AE1A4289C724B00C21365 /* Main.storyboard */,
 				B23AE1A7289C724C00C21365 /* Assets.xcassets */,
 				B23AE1A9289C724C00C21365 /* LaunchScreen.storyboard */,
 				B23AE1AC289C724C00C21365 /* Info.plist */,
@@ -113,6 +191,7 @@
 		B23AE1B4289C724D00C21365 /* UpcomingEventsTests */ = {
 			isa = PBXGroup;
 			children = (
+				B22D446C289E1B1A0091B09D /* UpcomingEventsModule */,
 				B23AE1B5289C724D00C21365 /* UpcomingEventsTests.swift */,
 			);
 			path = UpcomingEventsTests;
@@ -125,6 +204,78 @@
 				B23AE1C1289C724D00C21365 /* UpcomingEventsUITestsLaunchTests.swift */,
 			);
 			path = UpcomingEventsUITests;
+			sourceTree = "<group>";
+		};
+		B23AE1CE289C72A600C21365 /* UpcomingEvents */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE1D2289C736B00C21365 /* DataManager */,
+				B23AE1D1289C736500C21365 /* Presenter */,
+				B23AE1D0289C735E00C21365 /* Models */,
+				B23AE1CF289C735600C21365 /* Views */,
+			);
+			path = UpcomingEvents;
+			sourceTree = "<group>";
+		};
+		B23AE1CF289C735600C21365 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE1DE289C77DC00C21365 /* Cell */,
+				B23AE1A4289C724B00C21365 /* UpcomingEventsViewController.storyboard */,
+				B23AE1A2289C724B00C21365 /* UpcomingEventsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B23AE1D0289C735E00C21365 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE1DA289C756000C21365 /* EventsModel.swift */,
+				B22D4461289CDDB30091B09D /* SectionsEvents.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B23AE1D1289C736500C21365 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE1DC289C76A100C21365 /* UpcomingEventsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B23AE1D2289C736B00C21365 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE1D7289C748200C21365 /* Resources */,
+				B23AE1D4289C740E00C21365 /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		B23AE1D4289C740E00C21365 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE1D5289C743700C21365 /* GetNextEventsLocalData.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		B23AE1D7289C748200C21365 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE1D8289C749E00C21365 /* Events.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B23AE1DE289C77DC00C21365 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE1DF289C77F200C21365 /* EventsCell.swift */,
+				B23AE1E1289C782600C21365 /* EventsCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +382,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23AE1E2289C782600C21365 /* EventsCell.xib in Resources */,
 				B23AE1AB289C724C00C21365 /* LaunchScreen.storyboard in Resources */,
 				B23AE1A8289C724C00C21365 /* Assets.xcassets in Resources */,
-				B23AE1A6289C724B00C21365 /* Main.storyboard in Resources */,
+				B23AE1A6289C724B00C21365 /* UpcomingEventsViewController.storyboard in Resources */,
+				B23AE1D9289C749E00C21365 /* Events.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +411,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B23AE1A3289C724B00C21365 /* ViewController.swift in Sources */,
+				B23AE1A3289C724B00C21365 /* UpcomingEventsViewController.swift in Sources */,
+				B22D4464289D8F2D0091B09D /* DateExtension.swift in Sources */,
 				B23AE19F289C724B00C21365 /* AppDelegate.swift in Sources */,
+				B22D4462289CDDB30091B09D /* SectionsEvents.swift in Sources */,
+				B23AE1D6289C743700C21365 /* GetNextEventsLocalData.swift in Sources */,
+				B23AE1E0289C77F200C21365 /* EventsCell.swift in Sources */,
+				B22D4460289C7FC10091B09D /* StringExtension.swift in Sources */,
+				B23AE1DD289C76A100C21365 /* UpcomingEventsPresenter.swift in Sources */,
+				B23AE1DB289C756000C21365 /* EventsModel.swift in Sources */,
+				B22D446B289E08E80091B09D /* UIViewControllerExtension.swift in Sources */,
 				B23AE1A1289C724B00C21365 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +430,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B23AE1B6289C724D00C21365 /* UpcomingEventsTests.swift in Sources */,
+				B22D4472289E1D4C0091B09D /* UpcomingEventsViewMock.swift in Sources */,
+				B22D4474289E20270091B09D /* UpcomingEventsLocalDataMock.swift in Sources */,
+				B22D4470289E1C1A0091B09D /* UpcomingEventsPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +461,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B23AE1A4289C724B00C21365 /* Main.storyboard */ = {
+		B23AE1A4289C724B00C21365 /* UpcomingEventsViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B23AE1A5289C724B00C21365 /* Base */,
 			);
-			name = Main.storyboard;
+			name = UpcomingEventsViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		B23AE1A9289C724C00C21365 /* LaunchScreen.storyboard */ = {
@@ -442,7 +606,8 @@
 				INFOPLIST_FILE = UpcomingEvents/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = UpcomingEventsViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +635,8 @@
 				INFOPLIST_FILE = UpcomingEvents/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = UpcomingEventsViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
